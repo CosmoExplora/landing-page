@@ -28,6 +28,14 @@ p, a{
     background-color:#97d1f3 ;
     border-radius: 10px solid #252525;
     padding:5px 20px 5px 20px;
-    color: aliceblue;
+    color: rgb(82, 82, 82);
+
+}
+
+.btn:active{
+    background-color:#97d1f3 ;
+    border-radius: 10px solid #252525;
+    padding:5px 20px 5px 20px;
+    color: rgb(82, 82, 82);
 
 }
