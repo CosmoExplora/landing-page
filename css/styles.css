@@ -27,6 +27,11 @@ p, a{
     font-size: 5.9vw;
 }
 
+.titulo2{
+    font-weight: bold;
+    font-size: 4vw;
+}
+
 .explore{
     color:#C50A25;
 }
@@ -79,6 +84,11 @@ html,body{
 
 .card {
     border-color: #C50A25;
+    height: 100px;
+}
+
+.card-text {
+    font-size: 17px;
 }
 
 /* Media Query for Small Mobile Devices */
