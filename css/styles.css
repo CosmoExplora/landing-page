@@ -77,6 +77,10 @@ html,body{
     font-size: 2.5vw;
 }
 
+.card {
+    border-color: #C50A25;
+}
+
 /* Media Query for Small Mobile Devices */
 @media (max-width: 576px) {
     .titulo {
