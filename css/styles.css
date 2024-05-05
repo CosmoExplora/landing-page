@@ -4,10 +4,10 @@
 }
 
 #slide1, #slide2{
-    --bs-bg-opacity: 0.85;
+    --bs-bg-opacity: 0.65;
 }
 
-#slide2{
+#slide2, #slide4{
     background-color: #1d1c1c;
 }
 
