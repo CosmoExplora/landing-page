@@ -3,13 +3,21 @@
     padding: 0;
 }
 
+#slide1, #slide2{
+    --bs-bg-opacity: 0.85;
+}
+
+#slide2{
+    background-color: #1d1c1c;
+}
+
 .parrafo-somos{
     padding-left: 120px;
     padding-right: 120px;
 }
 
 p, a{
-    font-family:"Montserrat", sans-serif;
+    font-family:"Audiowide", sans-serif;
     font-size: 20px;
     font-style: 300;
 }
@@ -19,19 +27,24 @@ p, a{
     font-size: 5.9vw;
 }
 
+.explore{
+    color:#C50A25;
+}
+
 .btn{
-    background-color:#88cdf6 ;
+    background-color:#C50A25 ;
     border-radius: 10px;
     padding:5px 20px 5px 20px;
-    color: rgb(82, 82, 82);
+    color: aliceblue;
     text-transform: uppercase;
     font-weight: 600;
+    font-family:"Audiowide", sans-serif;
 
 }
 
 .btn:hover{
-    background-color:#97d1f3 ;
-    border-radius: 10px solid #252525;
+    background-color:#C50A25;
+    border-radius: 10px;
     padding:5px 20px 5px 20px;
     color: aliceblue;
 
@@ -52,10 +65,22 @@ html,body{
     margin: 0px;
 }
 
+.experiencia{
+    padding-top:20% ;
+    padding-bottom:20% ;
+    padding-left: 15%;
+    padding-right:15%;
+
+}
+
+.experiencia p{
+    font-size: 2.5vw;
+}
+
 /* Media Query for Small Mobile Devices */
 @media (max-width: 576px) {
     .titulo {
-        font-size: 28px; /* Adjust font size for smaller screens */
+        font-size: 42px; /* Adjust font size for smaller screens */
     }
     
     .btn {
@@ -68,6 +93,11 @@ html,body{
     }
     
     p, a {
-        font-size: 14px; /* Adjust font size for smaller screens */
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+    .experiencia p{
+        font-size:20px;
+
     }
 }
