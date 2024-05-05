@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .parrafo-somos{
     padding-left: 120px;
     padding-right: 120px;
@@ -10,8 +15,8 @@ p, a{
 }
 
 .titulo{
-    font-weight: 800;
-    font-size: 5rem;
+    font-weight: bold;
+    font-size: 5.9vw;
 }
 
 .btn{
@@ -40,4 +45,29 @@ p, a{
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Media Query for Small Mobile Devices */
+@media (max-width: 576px) {
+    .titulo {
+        font-size: 28px; /* Adjust font size for smaller screens */
+    }
+    
+    .btn {
+        padding: 5px 10px; /* Adjust padding for smaller screens */
+    }
+    
+    .parrafo-somos {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    p, a {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
 }
